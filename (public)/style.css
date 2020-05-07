@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.topbar{
+    background-color: #316dc3;
+}
+
+.topmid{
+    font-size: 15px;
+}
+
+.topright{
+    display: inline-block;
+    float: right; 
+    margin-top: 5px;
+}
+
+.topright a {
+    background-color: #f5f5f5;
+    color: #93b270;
+    text-align: center;
+    font-size: 12px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f7f8fa;
+    height: 90px;
+}
+
+.rounded-pill{
+    background-color: #316dc3;
+    color: white;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 220px;
+    margin-top: 12px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    margin-top: 24px;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.menu ul li a {
+    padding: 15px 25px;
+    color: #707171;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    background-color: #316dc3;
+    color: white;
+    border-radius: 30px;
+}
+
+.marquee {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.marquee span {
+    color: rgb(0, 255, 0);
+}
+.marquee a {
+    color: lightblue
+}
+
+.intro {
+    background-color: #f7f8fa;
+    padding-bottom: 50px;
+}
+
+.h2intro {
+    text-align: center;
+    font-family: merriweather;
+    font-weight: 600;
+    padding-top: 70px;
+    color: #316DC3;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+span {
+    color: #427900;
+    font-family: merriweather;
+}
+.container2 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.introimg{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.blueinfo {
+    background-color: #0057e8;
+    height: 320px;
+    color: white;
+    text-align: center;
+}
+
+.blueinfo span {
+    color: rgb(0, 255, 0);
+    font-size: 18px;
+}
+
+
+h5 {
+    font-family: 'Merriweather','Serif';
+    font-weight: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blueinfo .row {
+    padding-top: 90px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.numeric {
+    font-size: 55px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.servicesinfo{
+    background-color: #f7f8fa;
+}
+
+.sadqah {
+    border: 1px;
+}
+
+.box {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.textservices {
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    line-height: 2.9;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.services1 .row {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.services2 .row {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.services1{
+    text-align: center;
+}
+
+.services2{
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 0px 0px 2px lightgray;
+    margin: 15px 15px 15px 15px;
+    padding: 30px;
+    background-color: white;
+}
+
+.text-primary{
+    color: #316DC3;
+    font-family: 'Merriweather','Serif';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.separator {
+    width: 70px;
+    height: 2px;
+    background-color: #427900;
+    display: inline-block;
+}
+
+.ml-3 {
+    font-family: 'Merriweather','Serif';
+    font-size: 18px;
+    color: #316DC3;
+    font-weight: 600;
+}
+
+.mission marquee {
+    height: 200px;
+    width: 250px;
+}
+
+.pb-3 {
+    text-align: justify;
+}
+
+.favicon {
+    text-align: center;
+}
+
+.info-footer {
+    color: #bbb;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    line-height: 1.7;
+}
+
+.colored {
+    color: #427900;
+}
+
+.list-inline>li {
+    display: inline-block;
+    line-height: 1.9;
+}
+
+.links {
+    color: white;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+    border-bottom: 1px solid #444;
+}
+
+.links1 {
+    color: white;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+}
+
+.footer-social ul li {
+    display: inline-block;
+}
+
+.footer-social li a {
+    color: white;
+    padding: 10px;
+}
+
+.last-footer{
+    position: relative;
+    top: 200px;
+    background-color: #316DC3;
+    font-size: 13px;
+}
+
+.circle {
+    background-color: #006fc3;
+    border-radius: 100%;
+}
+
+.topbtn {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.topbtn i {
+    font-size: 50px;
+}
+
+.topbtn:hover {
+    color: white;
+    background-color: grey;
+}
